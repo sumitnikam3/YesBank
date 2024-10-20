@@ -113,9 +113,9 @@ ALTER TABLE EmployeeDetails
 
 insert into branchdetails (address) values('Mumbai');
 
-insert into employeedetails (emp_name,role,branch_code,password) values('Abhi','admin',130000,'Cdac@123');
+insert into employeedetails (emp_name,role,branch_code,password) values('Sumit','admin',130000,'Cdac@123');
 
-insert into CustomerDetails (CustomerName, MobileNo, EmailID, Address, AadharNo, PanNo, Password) values('Saurabh Pande','9561908640', 'saurabhpande062@gmail.com', 'Mumbai', '111100005555', 'ABCDE1111x', 'SaurabhP@07');
+insert into CustomerDetails (CustomerName, MobileNo, EmailID, Address, AadharNo, PanNo, Password) values('Sumit Nikam','9975961101', 'sumitnikam03@gmail.com', 'Mumbai', '111100005555', 'ABCDE1111x', 'Sumit@123');
 
 
 select * from customerdetails where customerId=(select customerId from accountdetails where account_no=120004)
