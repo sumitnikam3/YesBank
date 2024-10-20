@@ -4,9 +4,9 @@ http://localhost:5000/customers/createAccount
 
 JSON Body
 {
-    "firstName":"Abhi",
-    "lastName":"Shivade",
-    "mobileNumber":"9876543211",
+    "firstName":"Sumit",
+    "lastName":"Nikam",
+    "mobileNumber":"9879402011",
     "emailId":"def@gmail.com",
     "address":"Mumbai",
     "aadhaarNumber":"999988886666",
@@ -21,8 +21,8 @@ http://localhost:5000/admin/addAdmin
 
 JSON Body
 {
-    "firstName":"Abhi",
-    "lastName":"Shivade",
+    "firstName":"Sumit",
+    "lastName":"Nikam",
     "branchName":"Mumbai",
     "role":"admin",
     "password":"Cdac@123"
